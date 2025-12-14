@@ -27,7 +27,7 @@ export const generatePresentationContent = async (
   sourceText?: string,
   includeImages: boolean = true
 ): Promise<Presentation> => {
-  const apiKey = process.env.API_KEY;
+  const apiKey = AIzaSyCs7KDJlhbgrOVrKHOV0vx6o6b4LNUr3MY;
   if (!apiKey) {
     throw new Error("API Key is missing");
   }
